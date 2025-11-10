@@ -35,7 +35,7 @@ project-folder/
 
 # Run Locally
 1. Clone the repo  
-    
+   https://github.com/Ismailirshad/Todo-.git 
    cd todo-app
 
 2. Install dependencies  
