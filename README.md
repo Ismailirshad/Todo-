@@ -35,7 +35,7 @@ project-folder/
 
 # Run Locally
 1. Clone the repo  
-   git clone https://github.com/your-username/todo-app.git  
+    
    cd todo-app
 
 2. Install dependencies  
@@ -57,8 +57,7 @@ project-folder/
 - TailwindCSS provides the UI styling
 
 # Live Demo
-(Replace with your Vercel link)  
-https://your-vercel-url.vercel.app
+https://todo-rho-lovat-17.vercel.app/
 
 # Contributing
 Feel free to fork this project and contribute.
