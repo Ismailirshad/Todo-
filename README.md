@@ -1,12 +1,70 @@
-# React + Vite
+# iTask – React Todo App (Vite + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and simple Todo App built using React, Vite, TailwindCSS, and LocalStorage. You can add, edit, delete, and mark todos as completed while keeping data saved in the browser.
 
-Currently, two official plugins are available:
+# Features
+- Add new todos
+- Edit existing todos
+- Delete todos
+- Mark tasks as completed / not completed
+- Toggle to show/hide completed tasks
+- LocalStorage support
+- Fast performance with Vite
+- Clean UI using TailwindCSS
+- Unique IDs using UUID
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tech Stack
+- React 19
+- Vite
+- TailwindCSS
+- UUID
+- LocalStorage API
 
-## Expanding the ESLint configuration
+# Folder Structure
+project-folder/
+  package.json
+  vite.config.js
+  index.html
+  tailwind.config.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  src/
+    App.jsx
+    main.jsx
+    components/
+      Navbar.jsx
+
+# Run Locally
+1. Clone the repo  
+   git clone https://github.com/your-username/todo-app.git  
+   cd todo-app
+
+2. Install dependencies  
+   npm install
+
+3. Start development server  
+   npm run dev
+
+4. Build for production  
+   npm run build
+
+5. Preview build  
+   npm run preview
+
+# How It Works
+- Todos are stored in localStorage
+- useState manages todos and input fields
+- useEffect loads and saves todos
+- TailwindCSS provides the UI styling
+
+# Live Demo
+(Replace with your Vercel link)  
+https://your-vercel-url.vercel.app
+
+# Contributing
+Feel free to fork this project and contribute.
+
+# Support
+If you like this project, please star the repository on GitHub.
+
+# License
+This project is open-source and available under the MIT License.
